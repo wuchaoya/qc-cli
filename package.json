@@ -1,11 +1,15 @@
 {
-  "name": "qc-cli",
+  "name": "qc-create-cli",
   "version": "1.0.0",
   "description": "react项目cli",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "init": "./index.js"
+  },
+
   "author": "wuchao",
   "license": "ISC",
   "dependencies": {
@@ -22,5 +26,20 @@
     "minimist": "^1.2.0",
     "simple-git": "^1.124.0",
     "touch": "^3.1.0"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wuchaoya/qc-cli.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "bugs": {
+    "url": "https://github.com/wuchaoya/qc-cli/issues"
+  },
+  "homepage": "https://github.com/wuchaoya/qc-cli#readme"
 }
