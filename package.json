@@ -1,13 +1,13 @@
 {
   "name": "qc-create-cli",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "react项目cli",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "init": "./index.js"
+    "qc-cli": "./bin/index.js"
   },
 
   "author": "wuchao",
